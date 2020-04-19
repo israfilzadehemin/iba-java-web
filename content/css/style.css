@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+h1 {
+    color:fuchsia;
+    border-bottom: 1px solid fuchsia;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: greenyellow;
+}
+
+.main-container {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding: 0;
+    width: 300px;
+    height: 100px;
+    opacity: 0.7;
+}
+
+.login-container {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    opacity: 0.7;
+}
+
+.main-link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color:blue;
+    background: aqua;
+    border: 1px solid blueviolet;
+    border-radius: 30px;
+    transition: all 0.15s linear;
+}
+
+.main-link:hover {
+    letter-spacing: 15px;
+    background:blue;
+    color: aqua;
+    opacity: 0.5;
+
+}
+
+.textbox {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    color:fuchsia;
+    background: aqua;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.buttonbox {
+    width: 49%;
+    float: left;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    color:fuchsia;
+    background: aqua;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 25px;
+    transition: all 0.15s linear;
+    outline: none;
+}
+
+.buttonbox[type="submit"] {
+    margin-right: 2%;
+}
+.buttonbox:hover {
+    letter-spacing: 15px;
+    background:blue;
+    color: aqua;
+    opacity: 0.5;
+
+}
+
+.buttonbox:active {
+    background: cornflowerblue;
+}
+
+
+.back {
+    width: 100%;
+    text-align: center;
+    float: left;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    color:fuchsia;
+    background: aqua;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 25px;
+    transition: all 0.15s linear;
+    outline: none;
+}
