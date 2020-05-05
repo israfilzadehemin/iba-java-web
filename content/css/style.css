@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: Arial, serif;
     text-decoration: none;
 }
 
@@ -81,6 +81,18 @@ h3 {
     font-size: 25px;
 }
 
+.selectbox {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    color:fuchsia;
+    background: aqua;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
 .buttonbox {
     width: 49%;
     float: left;
@@ -126,4 +138,16 @@ h3 {
     font-size: 25px;
     transition: all 0.15s linear;
     outline: none;
+}
+
+.result {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    color:aqua;
+    text-align: center;
+    border: none;
+    top: 5px;
+    font-size: 25px;
 }

@@ -17,17 +17,15 @@ import java.nio.file.Paths;
 public class LoginServlet extends HttpServlet {
   User user = new User();
 
-
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    try(OutputStream os = resp.getOutputStream()) {
+    try (OutputStream os = resp.getOutputStream()) {
       Files.copy(Paths.get("content", "login.html"), os);
     }
   }
 
   @Override
   protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
     user.fillUsers();
 
     String username = req.getParameter("username");
