@@ -22,7 +22,8 @@ public class LogoutServlet extends HttpServlet {
               c.setMaxAge(0);
               resp.addCookie(c);
             });
-     resp.sendRedirect("/login");
+     resp.sendRedirect("/ " +
+             "login");
   }
 
 }

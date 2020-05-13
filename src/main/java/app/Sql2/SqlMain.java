@@ -1,9 +1,9 @@
-package app;
+package app.Sql2;
 
 import javax.xml.transform.Result;
 import java.sql.*;
 
-public class Sql2 {
+public class SqlMain {
   private final static String URL = "jdbc:postgresql://localhost:5432/iba-db-1";
   private final static String USER = "postgres";
   private final static String PASS = "xiaominote9";
